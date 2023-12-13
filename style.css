@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.col {
+    display: flex;
+    flex: none;
+    width: calc((100% / 10) - 10px);
+    aspect-ratio: 1;
+    background-color: rgb(99, 121, 216);
+    border: 1px solid black;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.fizz{
+    background-color: rgb(14, 221, 152);
+}
+
+.buzz{
+    background-color: rgb(235, 237, 108);
+}
+
+.fizzbuzz{
+    background-color: rgb(225, 68, 99);
+}
